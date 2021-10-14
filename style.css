@@ -1,0 +1,29 @@
+h4{
+    color: crimson;
+    font-size: xx-large;
+}
+h2{
+    color:green;
+    text-align: center;
+    font-size: medium;
+}
+h1{
+    text-align: center;
+}
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    opacity: 0.4;
+  }
+form {
+    text-align: right;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30%;
+    margin-bottom: auto;
+}
