@@ -1,10 +1,10 @@
 h4{
-    color: crimson;
-    font-size: xx-large;
+    color: maroon;
+    font-size:medium;
+    font-family:serif;
 }
 h2{
-    color:green;
-    text-align: center;
+    color:lightcoral;
     font-size: medium;
 }
 h1{
@@ -17,6 +17,9 @@ h1{
     width: 75%;
     opacity: 0.4;
   }
+.image2 {
+    display: block;
+}
 form {
     text-align: right;
 }
@@ -24,6 +27,24 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:30%;
+    margin-top:auto;
     margin-bottom: auto;
+}
+body {
+    background-image: url("gradient.png");
+    background-color: #cccccc;
+    background-position: center;
+   }
+.column {
+    float: right;
+    width:50%;
+}
+.left{
+    width: 25%
+    text-align: left;
+}
+.right {
+    width: 75%
+    text-align: right;
+    
 }
