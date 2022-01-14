@@ -2,12 +2,17 @@ h4{
     color: maroon;
     font-size:medium;
     font-family:serif;
+    text-align: center;
 }
 h2{
     color:lightcoral;
     font-size: medium;
+    text-align: center;
 }
 h1{
+    text-align: center;
+}
+h3{
     text-align: center;
 }
 .image1 {
