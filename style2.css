@@ -7,11 +7,10 @@ body {
 h1{
     color: gold;
     text-align: center;
-    text-shadow: 2px 2px 5px bronze;
+    text-shadow: 2px 2px 5px brown;
 }
 h3{
-    background: silver;
-    color: gold;
+    color: white;
     font-size:medium;
     text-align: center;
 }
