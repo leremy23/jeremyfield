@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<h1>
+<html lang="en">   
+<head>
+    <link rel="icon" 
+     type="image/png" 
+     href="favicon (7).ico">
     <link href="style.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JEREMY FIELD</title>
-</h1>
+    <title> truth </title>
+    <style></style>
+</head>
 <div class="row">
   <div class="column">
 	.	1  blue and red horses  
