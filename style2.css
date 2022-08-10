@@ -1,5 +1,4 @@
 body {
-  background-image: url("icy2.png");
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +14,7 @@ h3{
     text-align: center;
 }
 h4{
-    color: gold;
+    color: black;
     font-size:medium;
     font-family:serif;
     text-align: center;
