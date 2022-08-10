@@ -1,19 +1,21 @@
 body {
-  background-color: white;
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
 }
 h1{
-    color: black;
-    font-family:serif;
+    color: white;
+      font-size:medium;
+    font-family:'Courier New';
+  
 }
 h3{
-    color:black;
+    color:white;
     font-size:medium;
-    font-family:serif;
+    font-family:'Courier New';
 }
 h4{
-    color: black;
+    color: white;
     font-size:medium;
-    font-family:serif;
+    font-family:'Courier New';
 }
