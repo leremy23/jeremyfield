@@ -4,3 +4,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1{
+    color: gold;
+    text-align: center;
+}
+h4{
+    color: gold;
+    font-size:medium;
+    font-family:serif;
+    text-align: center;
+}
