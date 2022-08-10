@@ -5,10 +5,12 @@ body {
 }
 h1{
     color: black;
+    font-family:serif;
 }
 h3{
     color:black;
     font-size:medium;
+    font-family:serif;
 }
 h4{
     color: black;
