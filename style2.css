@@ -9,6 +9,13 @@ p {
   margin-bottom: 300px;
   margin-right: 100px;
   margin-left: 100px;
+  
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 h1{
     color: black;
     font-family:'Courier New';
