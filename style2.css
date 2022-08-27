@@ -1,18 +1,19 @@
 body {
-  background-color: black;
+  background-image: url(icy2.png);
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
 h1{
-    color: white;
+    color: black;
     font-family:'Courier New';
   
 }
 h3{
-    color:white;
+    color:black;
     font-family:'Courier New';
 }
 h4{
-    color: white;
+    color: black;
     font-family:'Courier New';
 }
