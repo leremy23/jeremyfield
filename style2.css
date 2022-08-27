@@ -4,6 +4,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+p {
+   margin-top: 30px;
+  margin-bottom: 300px;
+  margin-right: 100px;
+  margin-left: 100px;
 h1{
     color: black;
     font-family:'Courier New';
