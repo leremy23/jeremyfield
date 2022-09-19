@@ -23,9 +23,13 @@ h1{
   .demopara {
   line-height: 2 ;
 }
+h2{
+    text-align: center;
+}
 h3{
     color:black;
     font-family:'Courier New';
+    text-align: center;
 }
 h4{
     color: black;
