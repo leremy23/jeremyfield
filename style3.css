@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+   margin-top: 30px;
+  margin-bottom: 350px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+    color: black;
+    font-family:'Courier New';
+    text-align: center;
+  
+}
+  .demopara {
+  line-height: 2 ;
+}
+h2{
+    text-align: center;
+}
+h3{
+    color:black;
+    font-family:'Courier New';
+    text-align: center;
+}
+h4{
+    color: black;
+    font-family:'Courier New';
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
