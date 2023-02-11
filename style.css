@@ -41,6 +41,8 @@ body {
     background-image: url("gradient.png");
     background-color: #cccccc;
     background-position: center;
+    margin-right: 350px;
+    margin-left: 350px;
    }
 .column {
     float: right;
