@@ -32,9 +32,9 @@ h4{
 }
 h8{
     color: red;
-    font-family:'Times';
+    font-family:'Times Bold';
     text-align: center;
-   font-size: 14px;
+   font-size: 8px;
 }
 .center {
   display: block;
