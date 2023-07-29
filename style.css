@@ -78,3 +78,6 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
+a:hover {
+    font-size: 20px;
+}
