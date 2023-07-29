@@ -24,10 +24,12 @@ h3{
 }
 
 p{
-     text-align: center;
-     color: gold;
+    text-align: center;
+    color: gold;
     font-size: 30px;
-    font-family:trattatello;
+    font-family:PT serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .image1 {
