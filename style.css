@@ -72,3 +72,9 @@ body {
     text-align; right:auto
     
 }
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
