@@ -22,6 +22,12 @@ h1{
 h3{
     text-align: center;
 }
+h9{
+     text-align: center;
+     color: gold;
+    font-size:medium;
+    font-family:tratello;
+
 .image1 {
     display: block;
     margin-left: auto;
