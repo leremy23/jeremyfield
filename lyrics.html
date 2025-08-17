@@ -12,22 +12,34 @@
         padding-top: 10vh; /* start near vertical center */
         box-sizing: border-box;
     }
-
-    .top-nav {
+.top-row {
+      position: fixed;    /* sticks at top */
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #f9f9f9;
+      padding: 15px 0;
       text-align: center;
-      padding: 15px;
-      background-color: #f4f4f4;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      z-index: 1000;
     }
-    .top-nav a {
+
+    .top-row a {
       text-decoration: none;
-      color: #333;
-      font-size: 20px;
+      color: blue;
+      font-family: Georgia, serif;
       font-weight: bold;
+      font-size: 20px;
+      padding: 10px 20px;
+      border: 2px solid blue;
+      border-radius: 6px;
     }
-    .top-nav a:hover {
-      color: #0077cc;
+
+    .top-row a:hover {
+      background-color: blue;
+      color: white;
     }
+
 
     .content {
         background: white;
@@ -45,12 +57,12 @@
 </style>
 </head>
 
-     <div class="top-nav">
-        <a href="index.html">home</a>
-  </div>
-    
 <body>
-    
+
+     <div class="top-row">
+    <a href="index.html">Home</a>
+  </div>
+
 
     
 <div class="content">
