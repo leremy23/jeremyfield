@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page</title>
+  <style>
+    body {
+      font-family: courier;
+      font-weight: thin;
+      margin: 0;
+      background: #fff;
+    }
+
+    /* Top Nav */
+    .top-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+      background-color: #f4f4f4;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    .top-nav a {
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .top-nav a:hover {
+      color: #0077cc;
+    }
+
+    /* Content */
+    .content {
+      margin-top: 80px; /* push content down below nav */
+      padding: 20px;
+      max-width: 800px;
+      width: 90%;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+    }
+
+    details {
+      margin-bottom: 1em;
+    }
+
+    /* Center image at bottom */
+    .center-img {
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- TOP NAV -->
+  <div class="top-nav">
+    <a href="index.html">home</a>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <details>
+      <summary>i luv my bitch</summary>
+      <p>holy shit i love my bitch<br>
+      even heart in every sitch<br>
+      ... (rest of your text here) ...</p>
+    </details>
+
+    <!-- keep all your other <details> sections here -->
+
+  </div>
+
+  <!-- IMAGE AT BOTTOM -->
+  <img src="jerm demon copy.png" class="center-img" width="265" height="215">
+
+</body>
+</html>
