@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">   
 <head>
-    <link rel="icon" 
-     type="image/png" 
-     href="favicon (7).ico">
-    <link href="style.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>music</title>
-    <style>   body {
-        font-family: courier;
-        font-weight: thin;
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        padding-top: 10vh; /* start near vertical center */
-        box-sizing: border-box;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>music</title>
+  <link rel="icon" type="image/png" href="favicon (7).ico">
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding-top: 15vh;
+      box-sizing: border-box;
+      font-family: Georgia, serif;
+      text-align: center;
+      background: white;
     }
-.top-row {
+
+    .top-row {
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       padding: 15px 0;
-    position: fixed;
       text-align: center;
+      background: white;
       z-index: 1000;
     }
 
     .top-row a {
       text-decoration: none;
       color: blue;
-      font-family: Georgia, serif;
       font-weight: bold;
       font-size: 14px;
       padding: 5px 10px;
@@ -44,45 +47,35 @@
       color: white;
     }
 
-
-    .content {
-        background: white;
-        padding: 20px;
-        max-width: 800px;
-        width: 90%;
-        text-align: left;
-        box-shadow: 0 0px 0px rgba(0,0,0,0);
-        border-radius: 8px;
+    h3 {
+      color: blue;
+      margin: 20px 0 10px;
     }
 
-    details {
-        margin-bottom: 1em;
+    p {
+      margin: 10px 0 30px;
     }
-</style>
+
+    iframe {
+      margin: 20px 0;
+      max-width: 90%;
+    }
+  </style>
 </head>
 
 <body>
-
-     <div class="top-row">
+  <div class="top-row">
     <a href="index.html">Home</a>
   </div>
-</style>
 
-    
-</head>
- <h3 style="color: blue"> <br><br> jeremy field </h3> <p> Soaring Into the Great Church </p>
-<h3 style="color: blue"> 
-    <a href="https://jeremyfield.bandcamp.com/">bandcamp 🤔</a>
-     <br><br><br<br>
-    <a href="https://open.spotify.com/artist/0O1bxlmXvRG91shLMPdvul">spotify 😬</a>
-     <br><br><br<br>
-    <a href="https://music.apple.com/us/artist/jeremy-field/1698543447">apple music 😠</a>
-    
-    
-     <br><br><br<br>
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/cNeTxO3lFSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vbQwjZH4JOQ?si=yKmfnsvaggbSIkb_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br<br<br><br><br<br<br>
-     </h3>
-    
-    </body>
-  
+  <p>Soaring Into the Great Church</p>
+
+  <h3><a href="https://jeremyfield.bandcamp.com/">bandcamp 🤔</a></h3>
+  <h3><a href="https://open.spotify.com/artist/0O1bxlmXvRG91shLMPdvul">spotify 😬</a></h3>
+  <h3><a href="https://music.apple.com/us/artist/jeremy-field/1698543447">apple music 😠</a></h3>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cNeTxO3lFSY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vbQwjZH4JOQ?si=yKmfnsvaggbSIkb_" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
