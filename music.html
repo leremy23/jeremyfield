@@ -61,26 +61,12 @@
       max-width: 90%;
     }
     
-.image-container {
-      display: flex;
-      justify-content: center;
-      gap: 10px;            /* space between images */
-      width: 66%;           /* two-thirds of page width */
-      margin-top: 40px;
-    }
-
-    .image-container img {
-      max-width: 100%;      /* don’t let it overflow its box */
-      height: auto;         /* preserve aspect ratio */
-      display: block;       /* removes inline gaps */
-    }
-
-    .image-wrapper {
-      flex: 1 1 auto;       /* let each image shrink naturally */
-      max-width: 50%;       /* each image at most half the container */
-    }
-
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
     
   </style>
 </head>
@@ -97,9 +83,8 @@
   <h3><a href="https://open.spotify.com/artist/0O1bxlmXvRG91shLMPdvul">spotify 😬</a></h3>
   <h3><a href="https://music.apple.com/us/artist/jeremy-field/1698543447">apple music 😠</a></h3>
 <br><br><br>
- <div class="image-container">
-    <img src="soaring 1 cover.jpg" alt="Image 1">
-    <img src="soaring 2 cover.jpg" alt="Image 2">
+    <img src="soaring 1 cover.jpg" alt="Image 1" class="center"><br>
+    <img src="soaring 2 cover.jpg" alt="Image 2" class="center">
   </div>
 <br><br><br><br><br>
   
